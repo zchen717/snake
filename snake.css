@@ -1,0 +1,31 @@
+.container {
+  margin: 0 auto;
+  width: 480px;
+  box-sizing: border-box;
+  font-size: 0;
+}
+
+.board {
+  height: 480px;
+  box-sizing: border-box;
+}
+
+.square {
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+  border: thin solid black;
+}
+
+.snake {
+  background: black;
+}
+
+.apple {
+  background: red;
+}
+
+.score {
+  font-size: 16px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="stylesheet" type="text/css" href="snake.css">
+  </head>
+  <body>
+    <script src="./jquery.js"></script>
+    <script src="./snake.js"></script>
+    <script src="./board.js"></script>
+    <script src="./snake_ui.js"></script>
+    
+    <script>
+    var view;
+    $(function() {
+      view = new Snake.View($('.container').first());
+      view.start();
+    })
+    </script>
+    
+    
+    
+    <div class="container">
+      <div class="score">
+      </div>
+      <div class="board">
+      </div>
+    </div>
+  </body>
+</html>
